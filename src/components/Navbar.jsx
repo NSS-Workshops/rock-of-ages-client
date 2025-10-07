@@ -17,7 +17,7 @@ export const NavBar = () => {
             {
                 (localStorage.getItem("rock_token") !== null) ?
                     <li className="navbar__item">
-                        <button className="underline text-blue-600 hover:text-purple-700"
+                        <button className="underline text-yellow-600 hover:text-purple-700"
                             onClick={() => {
                                 localStorage.removeItem("rock_token")
                                 navigate('/login')
